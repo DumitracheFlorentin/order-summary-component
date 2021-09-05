@@ -1,0 +1,125 @@
+@use '../util';
+
+.card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  top: 15%;
+  width: 100%;
+  text-align: center;
+
+  &__container {
+    background-color: var(--very-pale);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0.1px 9px var(--desaturated-blue);
+
+    .image {
+      width: 100%;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    .text {
+      h1 {
+        font-size: util.rem(30);
+        font-weight: 900;
+        margin-top: util.rem(40);
+        color: var(--dark-blue);
+      }
+
+      p {
+        display: inline-block;
+
+        width: 20em;
+        color: var(--desaturated-blue);
+      }
+
+      .plan {
+        margin: 0.5rem 0 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.2rem;
+        border-radius: 10px;
+        background: hsla(225, 100%, 94%, 0.4);
+
+        &__first {
+          display: flex;
+          align-items: center;
+
+          .info {
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            h3 {
+              font-size: 1.04rem;
+              font-weight: 900;
+              color: var(--dark-blue);
+            }
+
+            h4 {
+              font-weight: 500;
+              color: var(--desaturated-blue);
+              font-size: 1.08rem;
+            }
+          }
+        }
+
+        a {
+          font-weight: 700;
+          color: var(--bright-blue);
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            text-decoration: none;
+            color: hsla(245, 75%, 52%, 0.8);
+          }
+        }
+      }
+
+      .btn {
+        display: block;
+        color: white;
+        background: var(--bright-blue);
+        border: none;
+        padding: 1rem 7rem;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px var(--bright-blue);
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          background-color: hsla(245, 75%, 52%, 0.8);
+        }
+      }
+
+      .sec_btn {
+        cursor: pointer;
+        border: none;
+        background: transparent;
+        font-weight: 700;
+        font-size: util.rem(15);
+        color: var(--desaturated-blue);
+        margin: 0.8rem 0 3rem 0;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: var(--dark-blue);
+        }
+      }
+    }
+  }
+}

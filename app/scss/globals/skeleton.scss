@@ -1,6 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  font-family: var(--red-hat-display);
 }
 
 *,
@@ -12,4 +13,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--pale-blue);
+  height: 100vh;
+  position: relative;
 }

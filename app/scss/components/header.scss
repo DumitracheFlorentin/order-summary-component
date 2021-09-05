@@ -1,0 +1,20 @@
+@use '../util';
+
+.bg {
+  height: 50vh;
+  &__container {
+    img {
+      @include util.breakpoint-up(mobile) {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+      }
+
+      @include util.breakpoint-down(mobile) {
+        display: none;
+      }
+    }
+  }
+}
