@@ -1,2 +1,2 @@
-html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{margin:0;padding:0}:root{--green:green;--sans-serif:sans-serif}.container{margin:0 auto;max-width:75rem;padding:0 1.25rem}@media (min-width:71.875em){.container{padding:0}}
+html{box-sizing:border-box;font-size:100%}*,:after,:before{box-sizing:inherit}body{margin:0;padding:0}:root{--pale-blue:#e0e8ff;--bright-blue:#3829e0;--very-pale:#f5f7ff;--desaturated-blue:#7280a7;--dark-blue:#1f2f56;--red-hat-display:"Red Hat Display",sans-serif}p{font-size:1rem}.container{margin:0 auto;max-width:75rem;padding:0 1.25rem}@media (min-width:){.container{padding:0}}
 /*# sourceMappingURL=style.css.map */

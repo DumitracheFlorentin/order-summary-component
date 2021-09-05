@@ -1,17 +1,13 @@
-// C: Coder Coder (Youtube Channel)
-
-// 640px, 1150px, 1400px
+// mobile - 375px - desktop 1440px
 $breakpoints-up: (
-  "medium": "40em",
-  "large": "71.875em",
-  "xlarge": "87.5em",
+  "mobile": "23.4375em",
+  "desktop": "90em",
 );
 
-// 639px, 1149px, 1399px
+// mobile - 374px - desktop 1439px
 $breakpoints-down: (
-  "small": "39.9375em",
-  "medium": "71.8125em",
-  "large": "87.4375em",
+  "small": "23.375em",
+  "medium": "89.9375em",
 );
 
 @mixin breakpoint-up($size) {
