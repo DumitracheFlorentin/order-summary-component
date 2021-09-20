@@ -23,7 +23,7 @@
   npm install --global gulp-cli
   ```
   
-- Now, go back to the termninal and type 'gulp' and you can see all the project.
+- Now, go back to the termninal, type 'gulp' and you can see all the project.
 
 ## Credits
 
